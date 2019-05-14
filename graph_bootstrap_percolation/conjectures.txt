@@ -1,0 +1,34 @@
+> is_2_bootstrap_good <- is_immutable
+> is_2_bootstrap_good <- is_clique
+> Status: 1 unlabeled tree, 47 labeled trees, 6 expressions
+> Generating trees with 1 unary node and 0 binary nodes.
+> Status: 2 unlabeled trees, 94 labeled trees, 6 expressions
+> Generating trees with 0 unary nodes and 1 binary node.
+> is_2_bootstrap_good <- (is_polyhedral) & (is_edge_transitive)
+> is_2_bootstrap_good <- (is_polyhedral) & (is_split)
+> is_2_bootstrap_good <- (is_cograph) & (is_polyhedral)
+> is_2_bootstrap_good <- (is_chordal) & (is_polyhedral)
+> is_2_bootstrap_good <- (is_overfull) & (is_split)
+> is_2_bootstrap_good <- (is_perfect) ^ (is_odd_hole_free)
+> is_2_bootstrap_good <- (is_even_hole_free) & (is_polyhedral)
+> Status: 3 unlabeled trees, 5499 labeled trees, 383 expressions
+> Generating trees with 2 unary nodes and 0 binary nodes.
+> Status: 4 unlabeled trees, 5546 labeled trees, 389 expressions
+> Generating trees with 1 unary node and 1 binary node.
+> is_2_bootstrap_good <- (~(is_apex)) & (is_eulerian)
+> is_2_bootstrap_good <- (~(is_prime)) & (is_polyhedral)
+> Status: 7 unlabeled trees, 21761 labeled trees, 1383 expressions
+> Generating trees with 3 unary nodes and 0 binary nodes.
+> Status: 8 unlabeled trees, 21808 labeled trees, 1383 expressions
+> Generating trees with 0 unary nodes and 2 binary nodes.
+> is_2_bootstrap_good <- ((is_weakly_chordal) ^ (is_long_hole_free)) & (is_eulerian)
+> is_2_bootstrap_good <- ((is_biconnected) & (is_regular)) ^ (is_cayley)
+> is_2_bootstrap_good <- ((is_biconnected) & (is_split)) & (is_cograph)
+> is_2_bootstrap_good <- ((is_biconnected) & (is_split)) & (is_circular_planar)
+> is_2_bootstrap_good <- ((is_cograph) & (is_biconnected)) & (is_chordal)
+> Status: 9 unlabeled trees, 982428 labeled trees, 66477 expressions
+> Generation process was stopped because the maximum time was reached.
+> Found 9 unlabeled trees.
+> Found 982428 labeled trees.
+> Found 66477 valid expressions.
+Finished conjecturing
