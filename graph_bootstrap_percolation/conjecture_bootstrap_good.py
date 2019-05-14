@@ -25,7 +25,7 @@ sage_all_computable_properties = ['is_apex', 'is_arc_transitive', 'is_asteroidal
                                   'is_clique', 'is_cograph', 'is_connected',
                                   'is_cycle', 'is_directed', 'is_distance_regular', 'is_drawn_free_of_edge_crossings',
                                   'is_edge_transitive', 'is_eulerian', 'is_even_hole_free', 'is_forest',
-                                  'is_gallai_tree', 'is_half_transitive', 'is_hamiltonian', 'is_immutable', 'is_independent_set',
+                                  'is_gallai_tree', 'is_half_transitive', 'is_hamiltonian', 'is_independent_set',
                                    'is_interval', 'is_long_antihole_free',
                                   'is_long_hole_free', 'is_odd_hole_free', 'is_overfull', 'is_partial_cube', 'is_perfect',
                                   'is_planar', 'is_polyhedral', 'is_prime', 'is_regular', 'is_self_complementary',
@@ -54,7 +54,9 @@ for graph in generate_non_isomorphic_graphs(7):
     #graph_property_cache[graph.graph6_string()] = {property.__name__ : property(graph) for property in properties}
 
 
+print(len(all_non_isomorphic_graphs_below_order))
 
+exit()
 
 propertyBasedConjecture(objects=all_non_isomorphic_graphs_below_order,
                         properties=properties,
