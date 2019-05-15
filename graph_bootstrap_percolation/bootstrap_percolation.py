@@ -27,9 +27,9 @@ def ktBootstrappable(G, num_for_spread, num_initial_infected):
 
     for s in S:
         s=set(s).union(isolated_vertices) # s includes all isolated cells, which we know must be included because they can't be reached otherwise (by definition)
-        if not percolate(num_for_spread,G,s):
-            return False
-    return True
+        if percolate(num_for_spread,G,s):
+            return True
+    return False
 
 def isolatedVertices(G,num_for_spread,num_initial_infected):
     """
