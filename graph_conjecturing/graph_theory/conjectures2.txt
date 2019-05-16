@@ -1,0 +1,1279 @@
+['is_2_bootstrap_good', 'is_regular', 'is_planar', 'is_forest', 'is_eulerian', 'is_connected', 'is_circular_planar', 'is_chordal', 'is_bipartite', 'is_cartesian_product', 'is_distance_regular', 'is_even_hole_free', 'is_gallai_tree', 'is_line_graph', 'is_overfull', 'is_perfect', 'is_split', 'is_strongly_regular', 'is_triangle_free', 'is_weakly_chordal', 'is_ore', 'is_generalized_dirac', 'is_van_den_heuvel', 'is_two_connected', 'is_three_connected', 'is_lindquester', 'is_claw_free', 'has_perfect_matching', 'has_radius_equal_diameter', 'is_not_forest', 'is_genghua_fan', 'is_cubic', 'diameter_equals_twice_radius', 'is_locally_connected', 'matching_covered', 'is_locally_dirac', 'is_locally_bipartite', 'is_interval', 'has_paw', 'is_paw_free', 'has_p4', 'is_p4_free', 'has_dart', 'is_dart_free', 'has_kite', 'is_kite_free', 'has_H', 'is_H_free', 'has_residue_equals_two', 'order_leq_twice_max_degree', 'alpha_leq_order_over_two', 'is_factor_critical', 'is_independence_irreducible', 'has_twin', 'is_twin_free', 'diameter_equals_two', 'girth_greater_than_2log', 'is_cycle', 'pairs_have_unique_common_neighbor', 'has_star_center', 'is_complement_of_chordal', 'has_c4', 'is_c4_free', 'is_subcubic', 'is_quasi_regular', 'is_bad', 'has_k4', 'is_k4_free', 'is_distance_transitive', 'is_unicyclic', 'is_locally_unicyclic', 'has_simplical_vertex', 'has_exactly_two_simplical_vertices', 'is_two_tree', 'is_locally_planar', 'is_four_connected', 'is_claw_free_paw_free', 'has_bull', 'is_bull_free', 'is_claw_free_bull_free', 'has_F', 'is_F_free', 'is_oberly_sumner', 'is_oberly_sumner_bull', 'is_oberly_sumner_p4', 'is_matthews_sumner', 'chvatals_condition', 'is_matching', 'is_local_matching', 'has_odd_order', 'has_even_order', 'is_circulant', 'has_loops', 'is_asteroidal_triple_free', 'is_block_graph', 'is_cactus', 'is_cograph', 'is_long_antihole_free', 'is_long_hole_free', 'is_partial_cube', 'is_polyhedral', 'is_prime', 'is_tree', 'is_apex', 'is_arc_transitive', 'is_self_complementary', 'is_double_clique', 'is_line_graph']
+Wed May 15 23:10:49 2019 Filtering start.
+Wed May 15 23:10:55 2019 Filtering finished. 7389 graphs remaining for conjecture.
+Wed May 15 23:10:55 2019 Conjecturing start.
+
+Generated utilizing CONJECTURING run over cached database of graph properties
+
+CONJECTURE SUMMARY:
+> is_2_bootstrap_good <- is_ore
+> is_2_bootstrap_good <- is_genghua_fan
+> is_2_bootstrap_good <- is_locally_connected
+> is_2_bootstrap_good <- ~(is_locally_planar)
+> is_2_bootstrap_good <- (is_line_graph) & (is_cartesian_product)
+> is_2_bootstrap_good <- (is_generalized_dirac) & (is_gallai_tree)
+> is_2_bootstrap_good <- (is_van_den_heuvel) & (is_split)
+> is_2_bootstrap_good <- (is_three_connected) & (is_even_hole_free)
+> is_2_bootstrap_good <- (is_three_connected) & (is_weakly_chordal)
+> is_2_bootstrap_good <- (is_three_connected) & (is_generalized_dirac)
+> is_2_bootstrap_good <- (has_radius_equal_diameter) & (is_weakly_chordal)
+> is_2_bootstrap_good <- (has_paw) & (is_generalized_dirac)
+> is_2_bootstrap_good <- (is_p4_free) & (is_line_graph)
+> is_2_bootstrap_good <- (has_dart) & (is_three_connected)
+> is_2_bootstrap_good <- (has_dart) & (has_radius_equal_diameter)
+> is_2_bootstrap_good <- (has_dart) & (is_p4_free)
+> is_2_bootstrap_good <- (has_kite) & (is_split)
+> is_2_bootstrap_good <- (has_kite) & (is_three_connected)
+> is_2_bootstrap_good <- (has_residue_equals_two) & (has_dart)
+> is_2_bootstrap_good <- (has_residue_equals_two) & (has_H)
+> is_2_bootstrap_good <- (diameter_equals_two) & (has_dart)
+> is_2_bootstrap_good <- (is_complement_of_chordal) & (is_two_connected)
+> is_2_bootstrap_good <- (is_complement_of_chordal) & (has_kite)
+> is_2_bootstrap_good <- (is_four_connected) & (is_bipartite)
+> is_2_bootstrap_good <- (is_four_connected) & (order_leq_twice_max_degree)
+> is_2_bootstrap_good <- (is_oberly_sumner) & (has_c4)
+> is_2_bootstrap_good <- (chvatals_condition) & (is_van_den_heuvel)
+> is_2_bootstrap_good <- (chvatals_condition) & (has_kite)
+> is_2_bootstrap_good <- (is_asteroidal_triple_free) & (is_three_connected)
+> is_2_bootstrap_good <- (is_polyhedral) & (is_factor_critical)
+> is_2_bootstrap_good <- (is_double_clique) & (has_kite)
+> is_2_bootstrap_good <- (~(alpha_leq_order_over_two)) & (has_k4)
+> is_2_bootstrap_good <- (~(is_independence_irreducible)) & (is_four_connected)
+> is_2_bootstrap_good <- (~(is_subcubic)) & (is_matthews_sumner)
+> is_2_bootstrap_good <- (~(is_quasi_regular)) & (is_overfull)
+> is_2_bootstrap_good <- (~(is_apex)) & (has_dart)
+
+END CONJECTURE SUMMARY
+
+
+> is_2_bootstrap_good <- is_ore
+> Conjecture is more significant for object 53.
+> Conjecture is more significant for object 67.
+> Conjecture is more significant for object 68.
+> Conjecture is more significant for object 69.
+> Conjecture is more significant for object 72.
+> Conjecture is more significant for object 73.
+> Conjecture is more significant for object 74.
+> Conjecture is more significant for object 75.
+> Conjecture is more significant for object 76.
+> Conjecture is more significant for object 79.
+> Conjecture is more significant for object 83.
+> Conjecture is more significant for object 88.
+> Conjecture is more significant for object 96.
+> Conjecture is more significant for object 97.
+> Conjecture is more significant for object 140.
+> Conjecture is more significant for object 141.
+> Conjecture is more significant for object 156.
+> Conjecture is more significant for object 193.
+> Conjecture is more significant for object 205.
+> Conjecture is more significant for object 214.
+> Conjecture is more significant for object 215.
+> Conjecture is more significant for object 219.
+> Conjecture is more significant for object 221.
+> Conjecture is more significant for object 222.
+> Conjecture is more significant for object 293.
+> Conjecture is more significant for object 295.
+> Conjecture is more significant for object 297.
+> Conjecture is more significant for object 300.
+> Conjecture is more significant for object 301.
+> Saving expression
+> is_2_bootstrap_good <- is_genghua_fan
+> Conjecture 1 is more significant for object 1.
+> Conjecture 2 is more significant for object 53.
+> Conjecture is more significant for object 16.
+> Conjecture is more significant for object 21.
+> Conjecture is more significant for object 45.
+> Conjecture is more significant for object 51.
+> Conjecture is more significant for object 118.
+> Conjecture is more significant for object 121.
+> Conjecture is more significant for object 122.
+> Conjecture is more significant for object 129.
+> Conjecture is more significant for object 137.
+> Conjecture is more significant for object 182.
+> Conjecture is more significant for object 188.
+> Conjecture is more significant for object 196.
+> Conjecture is more significant for object 232.
+> Conjecture is more significant for object 247.
+> Conjecture is more significant for object 261.
+> Conjecture is more significant for object 262.
+> Conjecture is more significant for object 264.
+> Conjecture is more significant for object 274.
+> Conjecture is more significant for object 325.
+> Conjecture is more significant for object 334.
+> Conjecture is more significant for object 388.
+> Conjecture is more significant for object 417.
+> Conjecture is more significant for object 422.
+> Conjecture is more significant for object 444.
+> Conjecture is more significant for object 482.
+> Conjecture is more significant for object 567.
+> Conjecture is more significant for object 577.
+> Conjecture is more significant for object 622.
+> Conjecture is more significant for object 934.
+> Conjecture is more significant for object 942.
+> Conjecture is more significant for object 952.
+> Conjecture is more significant for object 1970.
+> Conjecture is more significant for object 2005.
+> Conjecture is more significant for object 2391.
+> Conjecture is more significant for object 5565.
+> Conjecture is more significant for object 6323.
+> Conjecture is more significant for object 6376.
+> Conjecture is more significant for object 7388.
+> Saving expression
+> is_2_bootstrap_good <- is_locally_connected
+> Conjecture 2 is more significant for object 7.
+> Conjecture 3 is more significant for object 1.
+> Status: 1 unlabeled tree, 107 labeled trees, 10 expressions
+> Generating trees with 1 unary node and 0 binary nodes.
+> Conjecture is more significant for object 298.
+> Conjecture is more significant for object 330.
+> Saving expression
+> is_2_bootstrap_good <- ~(is_locally_planar)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 7.
+> Conjecture 3 is more significant for object 1.
+> Status: 2 unlabeled trees, 214 labeled trees, 13 expressions
+> Generating trees with 0 unary nodes and 1 binary node.
+> Conjecture is more significant for object 256.
+> Conjecture is more significant for object 580.
+> Conjecture is more significant for object 6375.
+> Saving expression
+> is_2_bootstrap_good <- (is_line_graph) & (is_cartesian_product)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 22.
+> Conjecture 3 is more significant for object 1.
+> Conjecture 4 is more significant for object 256.
+> Conjecture is more significant for object 25.
+> Saving expression
+> is_2_bootstrap_good <- (is_generalized_dirac) & (is_gallai_tree)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 22.
+> Conjecture 3 is more significant for object 1.
+> Conjecture 4 is more significant for object 256.
+> Conjecture 5 is more significant for object 25.
+> Conjecture is more significant for object 36.
+> Conjecture is more significant for object 41.
+> Conjecture is more significant for object 71.
+> Conjecture is more significant for object 114.
+> Saving expression
+> is_2_bootstrap_good <- (is_van_den_heuvel) & (is_split)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 22.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 256.
+> Conjecture 5 is more significant for object 25.
+> Conjecture 6 is more significant for object 36.
+> Conjecture is more significant for object 299.
+> Conjecture is more significant for object 303.
+> Saving expression
+> is_2_bootstrap_good <- (is_three_connected) & (is_even_hole_free)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 22.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 256.
+> Conjecture 5 is more significant for object 25.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 299.
+> Conjecture is more significant for object 117.
+> Conjecture is more significant for object 126.
+> Conjecture is more significant for object 149.
+> Conjecture is more significant for object 151.
+> Conjecture is more significant for object 178.
+> Conjecture is more significant for object 233.
+> Conjecture is more significant for object 238.
+> Conjecture is more significant for object 257.
+> Conjecture is more significant for object 310.
+> Conjecture is more significant for object 317.
+> Conjecture is more significant for object 371.
+> Conjecture is more significant for object 379.
+> Conjecture is more significant for object 392.
+> Conjecture is more significant for object 423.
+> Conjecture is more significant for object 455.
+> Conjecture is more significant for object 465.
+> Conjecture is more significant for object 481.
+> Conjecture is more significant for object 641.
+> Conjecture is more significant for object 651.
+> Conjecture is more significant for object 676.
+> Conjecture is more significant for object 724.
+> Conjecture is more significant for object 936.
+> Conjecture is more significant for object 1051.
+> Conjecture is more significant for object 1063.
+> Conjecture is more significant for object 1095.
+> Conjecture is more significant for object 1188.
+> Conjecture is more significant for object 2340.
+> Conjecture is more significant for object 2353.
+> Conjecture is more significant for object 2398.
+> Conjecture is more significant for object 2546.
+> Conjecture is more significant for object 2785.
+> Conjecture is more significant for object 2883.
+> Saving expression
+> is_2_bootstrap_good <- (is_three_connected) & (is_weakly_chordal)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 22.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 256.
+> Conjecture 5 is more significant for object 25.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 299.
+> Conjecture 8 is more significant for object 117.
+> Conjecture is more significant for object 145.
+> Conjecture is more significant for object 164.
+> Saving expression
+> is_2_bootstrap_good <- (is_three_connected) & (is_generalized_dirac)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 22.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 5 is more significant for object 25.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 8 is more significant for object 117.
+> Conjecture 9 is more significant for object 145.
+> Conjecture is more significant for object 15.
+> Conjecture is more significant for object 32.
+> Conjecture is more significant for object 44.
+> Conjecture is more significant for object 50.
+> Conjecture is more significant for object 55.
+> Conjecture is more significant for object 63.
+> Conjecture is more significant for object 92.
+> Conjecture is more significant for object 108.
+> Conjecture is more significant for object 125.
+> Conjecture is more significant for object 171.
+> Conjecture is more significant for object 187.
+> Conjecture is more significant for object 225.
+> Conjecture is more significant for object 307.
+> Conjecture is more significant for object 367.
+> Conjecture is more significant for object 451.
+> Conjecture is more significant for object 636.
+> Conjecture is more significant for object 1046.
+> Conjecture is more significant for object 2334.
+> Saving expression
+> is_2_bootstrap_good <- (has_radius_equal_diameter) & (is_weakly_chordal)
+> Conjecture 1 is more significant for object 298.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 145.
+> Conjecture is more significant for object 162.
+> Conjecture is more significant for object 166.
+> Conjecture is more significant for object 294.
+> Conjecture is more significant for object 304.
+> Saving expression
+> is_2_bootstrap_good <- (has_paw) & (is_generalized_dirac)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 8 is more significant for object 423.
+> Conjecture is more significant for object 2.
+> Conjecture is more significant for object 6.
+> Conjecture is more significant for object 19.
+> Conjecture is more significant for object 143.
+> Saving expression
+> is_2_bootstrap_good <- (is_p4_free) & (is_line_graph)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 145.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture is more significant for object 128.
+> Conjecture is more significant for object 155.
+> Conjecture is more significant for object 255.
+> Conjecture is more significant for object 350.
+> Conjecture is more significant for object 364.
+> Conjecture is more significant for object 408.
+> Conjecture is more significant for object 416.
+> Conjecture is more significant for object 427.
+> Conjecture is more significant for object 442.
+> Conjecture is more significant for object 941.
+> Conjecture is more significant for object 944.
+> Saving expression
+> is_2_bootstrap_good <- (has_dart) & (is_three_connected)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 145.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 128.
+> Conjecture is more significant for object 3912.
+> Saving expression
+> is_2_bootstrap_good <- (has_dart) & (has_radius_equal_diameter)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 145.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 350.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture is more significant for object 14.
+> Saving expression
+> is_2_bootstrap_good <- (has_dart) & (is_p4_free)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 145.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 350.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 14.
+> Conjecture is more significant for object 18.
+> Saving expression
+> is_2_bootstrap_good <- (has_kite) & (is_split)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 145.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 350.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 12 is more significant for object 14.
+> Conjecture is more significant for object 167.
+> Conjecture is more significant for object 332.
+> Saving expression
+> is_2_bootstrap_good <- (has_kite) & (is_three_connected)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 14.
+> Conjecture is more significant for object 48.
+> Conjecture is more significant for object 64.
+> Conjecture is more significant for object 98.
+> Saving expression
+> is_2_bootstrap_good <- (has_residue_equals_two) & (has_dart)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 14.
+> Conjecture 13 is more significant for object 48.
+> Conjecture is more significant for object 217.
+> Conjecture is more significant for object 249.
+> Conjecture is more significant for object 287.
+> Conjecture is more significant for object 328.
+> Conjecture is more significant for object 331.
+> Conjecture is more significant for object 356.
+> Conjecture is more significant for object 411.
+> Conjecture is more significant for object 438.
+> Conjecture is more significant for object 624.
+> Conjecture is more significant for object 999.
+> Saving expression
+> is_2_bootstrap_good <- (has_residue_equals_two) & (has_H)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 36.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 14.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture is more significant for object 562.
+> Saving expression
+> is_2_bootstrap_good <- (diameter_equals_two) & (has_dart)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 67.
+> Conjecture 3 is more significant for object 16.
+> Conjecture 4 is more significant for object 15.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 423.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 18.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture is more significant for object 120.
+> Saving expression
+> is_2_bootstrap_good <- (is_complement_of_chordal) & (is_two_connected)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 3 is more significant for object 205.
+> Conjecture 4 is more significant for object 50.
+> Conjecture 5 is more significant for object 72.
+> Conjecture 6 is more significant for object 67.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 2785.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 18.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture is more significant for object 40.
+> Saving expression
+> is_2_bootstrap_good <- (is_complement_of_chordal) & (has_kite)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 40.
+> Conjecture 3 is more significant for object 205.
+> Conjecture 4 is more significant for object 50.
+> Conjecture 5 is more significant for object 72.
+> Conjecture 6 is more significant for object 67.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 2785.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture is more significant for object 336.
+> Conjecture is more significant for object 575.
+> Conjecture is more significant for object 623.
+> Conjecture is more significant for object 1886.
+> Conjecture is more significant for object 1990.
+> Saving expression
+> is_2_bootstrap_good <- (is_four_connected) & (is_bipartite)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 18.
+> Conjecture 3 is more significant for object 205.
+> Conjecture 4 is more significant for object 50.
+> Conjecture 5 is more significant for object 72.
+> Conjecture 6 is more significant for object 67.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture is more significant for object 445.
+> Conjecture is more significant for object 496.
+> Conjecture is more significant for object 529.
+> Conjecture is more significant for object 557.
+> Conjecture is more significant for object 597.
+> Conjecture is more significant for object 603.
+> Conjecture is more significant for object 604.
+> Conjecture is more significant for object 605.
+> Conjecture is more significant for object 625.
+> Conjecture is more significant for object 670.
+> Conjecture is more significant for object 695.
+> Conjecture is more significant for object 717.
+> Conjecture is more significant for object 728.
+> Conjecture is more significant for object 798.
+> Conjecture is more significant for object 827.
+> Conjecture is more significant for object 915.
+> Conjecture is more significant for object 972.
+> Conjecture is more significant for object 973.
+> Conjecture is more significant for object 980.
+> Conjecture is more significant for object 981.
+> Conjecture is more significant for object 983.
+> Conjecture is more significant for object 1016.
+> Conjecture is more significant for object 1031.
+> Conjecture is more significant for object 1086.
+> Conjecture is more significant for object 1131.
+> Conjecture is more significant for object 1134.
+> Conjecture is more significant for object 1139.
+> Conjecture is more significant for object 1144.
+> Conjecture is more significant for object 1145.
+> Conjecture is more significant for object 1147.
+> Conjecture is more significant for object 1149.
+> Conjecture is more significant for object 1183.
+> Conjecture is more significant for object 1194.
+> Conjecture is more significant for object 1197.
+> Conjecture is more significant for object 1210.
+> Conjecture is more significant for object 1213.
+> Conjecture is more significant for object 1214.
+> Conjecture is more significant for object 1217.
+> Conjecture is more significant for object 1218.
+> Conjecture is more significant for object 1226.
+> Conjecture is more significant for object 1227.
+> Conjecture is more significant for object 1240.
+> Conjecture is more significant for object 1242.
+> Conjecture is more significant for object 1243.
+> Conjecture is more significant for object 1246.
+> Conjecture is more significant for object 1250.
+> Conjecture is more significant for object 1251.
+> Conjecture is more significant for object 1252.
+> Conjecture is more significant for object 1269.
+> Conjecture is more significant for object 1292.
+> Conjecture is more significant for object 1326.
+> Conjecture is more significant for object 1348.
+> Conjecture is more significant for object 1352.
+> Conjecture is more significant for object 1363.
+> Conjecture is more significant for object 1382.
+> Conjecture is more significant for object 1387.
+> Conjecture is more significant for object 1454.
+> Conjecture is more significant for object 1455.
+> Conjecture is more significant for object 1457.
+> Conjecture is more significant for object 1460.
+> Conjecture is more significant for object 1468.
+> Conjecture is more significant for object 1489.
+> Conjecture is more significant for object 1527.
+> Conjecture is more significant for object 1544.
+> Conjecture is more significant for object 1553.
+> Conjecture is more significant for object 1555.
+> Conjecture is more significant for object 1556.
+> Conjecture is more significant for object 1572.
+> Conjecture is more significant for object 1577.
+> Conjecture is more significant for object 1578.
+> Conjecture is more significant for object 1580.
+> Conjecture is more significant for object 1582.
+> Conjecture is more significant for object 1587.
+> Conjecture is more significant for object 1588.
+> Conjecture is more significant for object 1589.
+> Conjecture is more significant for object 1590.
+> Conjecture is more significant for object 1658.
+> Conjecture is more significant for object 1664.
+> Conjecture is more significant for object 1677.
+> Conjecture is more significant for object 1678.
+> Conjecture is more significant for object 1691.
+> Conjecture is more significant for object 1696.
+> Conjecture is more significant for object 1697.
+> Conjecture is more significant for object 1705.
+> Conjecture is more significant for object 1714.
+> Conjecture is more significant for object 1716.
+> Conjecture is more significant for object 1719.
+> Conjecture is more significant for object 1735.
+> Conjecture is more significant for object 1799.
+> Conjecture is more significant for object 1870.
+> Conjecture is more significant for object 1895.
+> Conjecture is more significant for object 1898.
+> Conjecture is more significant for object 1917.
+> Conjecture is more significant for object 1919.
+> Conjecture is more significant for object 1926.
+> Conjecture is more significant for object 1929.
+> Conjecture is more significant for object 2026.
+> Conjecture is more significant for object 2047.
+> Conjecture is more significant for object 2062.
+> Conjecture is more significant for object 2064.
+> Conjecture is more significant for object 2083.
+> Conjecture is more significant for object 2092.
+> Conjecture is more significant for object 2093.
+> Conjecture is more significant for object 2094.
+> Conjecture is more significant for object 2096.
+> Conjecture is more significant for object 2097.
+> Conjecture is more significant for object 2101.
+> Conjecture is more significant for object 2105.
+> Conjecture is more significant for object 2110.
+> Conjecture is more significant for object 2119.
+> Conjecture is more significant for object 2120.
+> Conjecture is more significant for object 2136.
+> Conjecture is more significant for object 2144.
+> Conjecture is more significant for object 2146.
+> Conjecture is more significant for object 2147.
+> Conjecture is more significant for object 2152.
+> Conjecture is more significant for object 2165.
+> Conjecture is more significant for object 2167.
+> Conjecture is more significant for object 2169.
+> Conjecture is more significant for object 2170.
+> Conjecture is more significant for object 2171.
+> Conjecture is more significant for object 2173.
+> Conjecture is more significant for object 2188.
+> Conjecture is more significant for object 2193.
+> Conjecture is more significant for object 2194.
+> Conjecture is more significant for object 2196.
+> Conjecture is more significant for object 2198.
+> Conjecture is more significant for object 2231.
+> Conjecture is more significant for object 2232.
+> Conjecture is more significant for object 2234.
+> Conjecture is more significant for object 2235.
+> Conjecture is more significant for object 2249.
+> Conjecture is more significant for object 2250.
+> Conjecture is more significant for object 2264.
+> Conjecture is more significant for object 2265.
+> Conjecture is more significant for object 2268.
+> Conjecture is more significant for object 2272.
+> Conjecture is more significant for object 2283.
+> Conjecture is more significant for object 2284.
+> Conjecture is more significant for object 2285.
+> Conjecture is more significant for object 2286.
+> Conjecture is more significant for object 2290.
+> Conjecture is more significant for object 2291.
+> Conjecture is more significant for object 2303.
+> Conjecture is more significant for object 2315.
+> Conjecture is more significant for object 2316.
+> Conjecture is more significant for object 2317.
+> Conjecture is more significant for object 2319.
+> Conjecture is more significant for object 2324.
+> Conjecture is more significant for object 2325.
+> Conjecture is more significant for object 2326.
+> Conjecture is more significant for object 2328.
+> Conjecture is more significant for object 2329.
+> Conjecture is more significant for object 2331.
+> Conjecture is more significant for object 2382.
+> Conjecture is more significant for object 2389.
+> Conjecture is more significant for object 2456.
+> Conjecture is more significant for object 2461.
+> Conjecture is more significant for object 2463.
+> Conjecture is more significant for object 2472.
+> Conjecture is more significant for object 2476.
+> Conjecture is more significant for object 2477.
+> Conjecture is more significant for object 2479.
+> Conjecture is more significant for object 2481.
+> Conjecture is more significant for object 2482.
+> Conjecture is more significant for object 2491.
+> Conjecture is more significant for object 2525.
+> Conjecture is more significant for object 2539.
+> Conjecture is more significant for object 2553.
+> Conjecture is more significant for object 2559.
+> Conjecture is more significant for object 2566.
+> Conjecture is more significant for object 2573.
+> Conjecture is more significant for object 2574.
+> Conjecture is more significant for object 2575.
+> Conjecture is more significant for object 2577.
+> Conjecture is more significant for object 2588.
+> Conjecture is more significant for object 2589.
+> Conjecture is more significant for object 2590.
+> Conjecture is more significant for object 2593.
+> Conjecture is more significant for object 2594.
+> Conjecture is more significant for object 2599.
+> Conjecture is more significant for object 2601.
+> Conjecture is more significant for object 2606.
+> Conjecture is more significant for object 2609.
+> Conjecture is more significant for object 2610.
+> Conjecture is more significant for object 2614.
+> Conjecture is more significant for object 2625.
+> Conjecture is more significant for object 2644.
+> Conjecture is more significant for object 2647.
+> Conjecture is more significant for object 2650.
+> Conjecture is more significant for object 2651.
+> Conjecture is more significant for object 2652.
+> Conjecture is more significant for object 2653.
+> Conjecture is more significant for object 2658.
+> Conjecture is more significant for object 2659.
+> Conjecture is more significant for object 2661.
+> Conjecture is more significant for object 2664.
+> Conjecture is more significant for object 2666.
+> Conjecture is more significant for object 2669.
+> Conjecture is more significant for object 2670.
+> Conjecture is more significant for object 2671.
+> Conjecture is more significant for object 2672.
+> Conjecture is more significant for object 2673.
+> Conjecture is more significant for object 2674.
+> Conjecture is more significant for object 2675.
+> Conjecture is more significant for object 2677.
+> Conjecture is more significant for object 2678.
+> Conjecture is more significant for object 2679.
+> Conjecture is more significant for object 2680.
+> Conjecture is more significant for object 2681.
+> Conjecture is more significant for object 2683.
+> Conjecture is more significant for object 2684.
+> Conjecture is more significant for object 2685.
+> Conjecture is more significant for object 2695.
+> Conjecture is more significant for object 2707.
+> Conjecture is more significant for object 2711.
+> Conjecture is more significant for object 2712.
+> Conjecture is more significant for object 2726.
+> Conjecture is more significant for object 2740.
+> Conjecture is more significant for object 2754.
+> Conjecture is more significant for object 2778.
+> Conjecture is more significant for object 2783.
+> Conjecture is more significant for object 2799.
+> Conjecture is more significant for object 2852.
+> Conjecture is more significant for object 2855.
+> Conjecture is more significant for object 2867.
+> Conjecture is more significant for object 2870.
+> Conjecture is more significant for object 2871.
+> Conjecture is more significant for object 2876.
+> Conjecture is more significant for object 2878.
+> Conjecture is more significant for object 2881.
+> Conjecture is more significant for object 2882.
+> Conjecture is more significant for object 2891.
+> Conjecture is more significant for object 2905.
+> Conjecture is more significant for object 2908.
+> Conjecture is more significant for object 2911.
+> Conjecture is more significant for object 2937.
+> Conjecture is more significant for object 3004.
+> Conjecture is more significant for object 3005.
+> Conjecture is more significant for object 3007.
+> Conjecture is more significant for object 3088.
+> Conjecture is more significant for object 3113.
+> Conjecture is more significant for object 3241.
+> Conjecture is more significant for object 3298.
+> Conjecture is more significant for object 3303.
+> Conjecture is more significant for object 3304.
+> Conjecture is more significant for object 3308.
+> Conjecture is more significant for object 3332.
+> Conjecture is more significant for object 3346.
+> Conjecture is more significant for object 3373.
+> Conjecture is more significant for object 3376.
+> Conjecture is more significant for object 3435.
+> Conjecture is more significant for object 3456.
+> Conjecture is more significant for object 3558.
+> Conjecture is more significant for object 3605.
+> Conjecture is more significant for object 3655.
+> Conjecture is more significant for object 3695.
+> Conjecture is more significant for object 3737.
+> Conjecture is more significant for object 3750.
+> Conjecture is more significant for object 3771.
+> Conjecture is more significant for object 3836.
+> Conjecture is more significant for object 3837.
+> Conjecture is more significant for object 3838.
+> Conjecture is more significant for object 3839.
+> Conjecture is more significant for object 3840.
+> Conjecture is more significant for object 3853.
+> Conjecture is more significant for object 3879.
+> Conjecture is more significant for object 3880.
+> Conjecture is more significant for object 3883.
+> Conjecture is more significant for object 3885.
+> Conjecture is more significant for object 3887.
+> Conjecture is more significant for object 3890.
+> Conjecture is more significant for object 3897.
+> Conjecture is more significant for object 4103.
+> Conjecture is more significant for object 4250.
+> Conjecture is more significant for object 4304.
+> Conjecture is more significant for object 4351.
+> Conjecture is more significant for object 4352.
+> Conjecture is more significant for object 4355.
+> Conjecture is more significant for object 4381.
+> Conjecture is more significant for object 4382.
+> Conjecture is more significant for object 4383.
+> Conjecture is more significant for object 4392.
+> Conjecture is more significant for object 4395.
+> Conjecture is more significant for object 4396.
+> Conjecture is more significant for object 4397.
+> Conjecture is more significant for object 4423.
+> Conjecture is more significant for object 4424.
+> Conjecture is more significant for object 4438.
+> Conjecture is more significant for object 4439.
+> Conjecture is more significant for object 4696.
+> Conjecture is more significant for object 4700.
+> Conjecture is more significant for object 4915.
+> Conjecture is more significant for object 4991.
+> Conjecture is more significant for object 4992.
+> Conjecture is more significant for object 5080.
+> Conjecture is more significant for object 5132.
+> Conjecture is more significant for object 5176.
+> Conjecture is more significant for object 5186.
+> Conjecture is more significant for object 5213.
+> Conjecture is more significant for object 5216.
+> Conjecture is more significant for object 5221.
+> Conjecture is more significant for object 5274.
+> Conjecture is more significant for object 5766.
+> Conjecture is more significant for object 5801.
+> Conjecture is more significant for object 5817.
+> Conjecture is more significant for object 5914.
+> Conjecture is more significant for object 5921.
+> Conjecture is more significant for object 6012.
+> Conjecture is more significant for object 6025.
+> Conjecture is more significant for object 6032.
+> Conjecture is more significant for object 6043.
+> Conjecture is more significant for object 6064.
+> Conjecture is more significant for object 6074.
+> Conjecture is more significant for object 6078.
+> Conjecture is more significant for object 6081.
+> Conjecture is more significant for object 6144.
+> Conjecture is more significant for object 6258.
+> Conjecture is more significant for object 6360.
+> Conjecture is more significant for object 6398.
+> Conjecture is more significant for object 6468.
+> Conjecture is more significant for object 6487.
+> Conjecture is more significant for object 6511.
+> Conjecture is more significant for object 6556.
+> Conjecture is more significant for object 6597.
+> Conjecture is more significant for object 6634.
+> Conjecture is more significant for object 6669.
+> Conjecture is more significant for object 6670.
+> Conjecture is more significant for object 6671.
+> Conjecture is more significant for object 6672.
+> Conjecture is more significant for object 6673.
+> Conjecture is more significant for object 6674.
+> Conjecture is more significant for object 6682.
+> Conjecture is more significant for object 6690.
+> Conjecture is more significant for object 6703.
+> Conjecture is more significant for object 6707.
+> Conjecture is more significant for object 6708.
+> Conjecture is more significant for object 6711.
+> Conjecture is more significant for object 6748.
+> Conjecture is more significant for object 6771.
+> Conjecture is more significant for object 6779.
+> Conjecture is more significant for object 6792.
+> Conjecture is more significant for object 6812.
+> Conjecture is more significant for object 6814.
+> Conjecture is more significant for object 6815.
+> Conjecture is more significant for object 6826.
+> Conjecture is more significant for object 6829.
+> Conjecture is more significant for object 6830.
+> Conjecture is more significant for object 6836.
+> Conjecture is more significant for object 6837.
+> Conjecture is more significant for object 6838.
+> Conjecture is more significant for object 6842.
+> Conjecture is more significant for object 6845.
+> Conjecture is more significant for object 6859.
+> Conjecture is more significant for object 6861.
+> Conjecture is more significant for object 6863.
+> Conjecture is more significant for object 6891.
+> Conjecture is more significant for object 6901.
+> Conjecture is more significant for object 6902.
+> Conjecture is more significant for object 6918.
+> Conjecture is more significant for object 6919.
+> Conjecture is more significant for object 6920.
+> Conjecture is more significant for object 6922.
+> Conjecture is more significant for object 6948.
+> Conjecture is more significant for object 6949.
+> Conjecture is more significant for object 6952.
+> Conjecture is more significant for object 6955.
+> Conjecture is more significant for object 6969.
+> Conjecture is more significant for object 6974.
+> Conjecture is more significant for object 7121.
+> Conjecture is more significant for object 7141.
+> Conjecture is more significant for object 7166.
+> Conjecture is more significant for object 7167.
+> Conjecture is more significant for object 7170.
+> Conjecture is more significant for object 7171.
+> Conjecture is more significant for object 7172.
+> Conjecture is more significant for object 7177.
+> Conjecture is more significant for object 7180.
+> Conjecture is more significant for object 7218.
+> Conjecture is more significant for object 7219.
+> Conjecture is more significant for object 7234.
+> Conjecture is more significant for object 7238.
+> Conjecture is more significant for object 7239.
+> Conjecture is more significant for object 7266.
+> Conjecture is more significant for object 7283.
+> Conjecture is more significant for object 7284.
+> Conjecture is more significant for object 7285.
+> Conjecture is more significant for object 7290.
+> Conjecture is more significant for object 7291.
+> Conjecture is more significant for object 7304.
+> Conjecture is more significant for object 7305.
+> Conjecture is more significant for object 7308.
+> Conjecture is more significant for object 7337.
+> Conjecture is more significant for object 7356.
+> Conjecture is more significant for object 7357.
+> Conjecture is more significant for object 7358.
+> Conjecture is more significant for object 7359.
+> Conjecture is more significant for object 7360.
+> Conjecture is more significant for object 7361.
+> Conjecture is more significant for object 7366.
+> Conjecture is more significant for object 7372.
+> Conjecture is more significant for object 7377.
+> Conjecture is more significant for object 7378.
+> Saving expression
+> is_2_bootstrap_good <- (is_four_connected) & (order_leq_twice_max_degree)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 18.
+> Conjecture 3 is more significant for object 205.
+> Conjecture 4 is more significant for object 50.
+> Conjecture 5 is more significant for object 72.
+> Conjecture 6 is more significant for object 67.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 445.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture is more significant for object 135.
+> Saving expression
+> is_2_bootstrap_good <- (is_oberly_sumner) & (has_c4)
+> Conjecture 1 is more significant for object 330.
+> Conjecture 2 is more significant for object 18.
+> Conjecture 3 is more significant for object 205.
+> Conjecture 5 is more significant for object 96.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 445.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 167.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture is more significant for object 52.
+> Saving expression
+> is_2_bootstrap_good <- (chvatals_condition) & (is_van_den_heuvel)
+> Conjecture 2 is more significant for object 18.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 445.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture is more significant for object 49.
+> Conjecture is more significant for object 78.
+> Saving expression
+> is_2_bootstrap_good <- (chvatals_condition) & (has_kite)
+> Conjecture 1 is more significant for object 49.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 445.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 217.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture is more significant for object 282.
+> Conjecture is more significant for object 314.
+> Conjecture is more significant for object 319.
+> Conjecture is more significant for object 326.
+> Conjecture is more significant for object 349.
+> Conjecture is more significant for object 375.
+> Conjecture is more significant for object 381.
+> Conjecture is more significant for object 385.
+> Conjecture is more significant for object 386.
+> Conjecture is more significant for object 391.
+> Conjecture is more significant for object 397.
+> Conjecture is more significant for object 402.
+> Conjecture is more significant for object 434.
+> Conjecture is more significant for object 435.
+> Conjecture is more significant for object 437.
+> Conjecture is more significant for object 459.
+> Conjecture is more significant for object 461.
+> Conjecture is more significant for object 466.
+> Conjecture is more significant for object 471.
+> Conjecture is more significant for object 472.
+> Conjecture is more significant for object 476.
+> Conjecture is more significant for object 480.
+> Conjecture is more significant for object 493.
+> Conjecture is more significant for object 503.
+> Conjecture is more significant for object 505.
+> Conjecture is more significant for object 519.
+> Conjecture is more significant for object 521.
+> Conjecture is more significant for object 530.
+> Conjecture is more significant for object 601.
+> Conjecture is more significant for object 610.
+> Conjecture is more significant for object 612.
+> Conjecture is more significant for object 644.
+> Conjecture is more significant for object 646.
+> Conjecture is more significant for object 652.
+> Conjecture is more significant for object 658.
+> Conjecture is more significant for object 659.
+> Conjecture is more significant for object 666.
+> Conjecture is more significant for object 667.
+> Conjecture is more significant for object 674.
+> Conjecture is more significant for object 675.
+> Conjecture is more significant for object 694.
+> Conjecture is more significant for object 702.
+> Conjecture is more significant for object 703.
+> Conjecture is more significant for object 715.
+> Conjecture is more significant for object 720.
+> Conjecture is more significant for object 721.
+> Conjecture is more significant for object 747.
+> Conjecture is more significant for object 758.
+> Conjecture is more significant for object 775.
+> Conjecture is more significant for object 780.
+> Conjecture is more significant for object 785.
+> Conjecture is more significant for object 826.
+> Conjecture is more significant for object 971.
+> Conjecture is more significant for object 987.
+> Conjecture is more significant for object 990.
+> Conjecture is more significant for object 992.
+> Conjecture is more significant for object 998.
+> Conjecture is more significant for object 1042.
+> Conjecture is more significant for object 1054.
+> Conjecture is more significant for object 1056.
+> Conjecture is more significant for object 1058.
+> Conjecture is more significant for object 1064.
+> Conjecture is more significant for object 1071.
+> Conjecture is more significant for object 1072.
+> Conjecture is more significant for object 1081.
+> Conjecture is more significant for object 1082.
+> Conjecture is more significant for object 1088.
+> Conjecture is more significant for object 1092.
+> Conjecture is more significant for object 1094.
+> Conjecture is more significant for object 1128.
+> Conjecture is more significant for object 1141.
+> Conjecture is more significant for object 1142.
+> Conjecture is more significant for object 1153.
+> Conjecture is more significant for object 1170.
+> Conjecture is more significant for object 1177.
+> Conjecture is more significant for object 1180.
+> Conjecture is more significant for object 1186.
+> Conjecture is more significant for object 1244.
+> Conjecture is more significant for object 1312.
+> Conjecture is more significant for object 1325.
+> Conjecture is more significant for object 1408.
+> Conjecture is more significant for object 1410.
+> Conjecture is more significant for object 1430.
+> Conjecture is more significant for object 1467.
+> Conjecture is more significant for object 2091.
+> Conjecture is more significant for object 2138.
+> Conjecture is more significant for object 2155.
+> Conjecture is more significant for object 2158.
+> Conjecture is more significant for object 2172.
+> Conjecture is more significant for object 2343.
+> Conjecture is more significant for object 2345.
+> Conjecture is more significant for object 2347.
+> Conjecture is more significant for object 2354.
+> Conjecture is more significant for object 2362.
+> Conjecture is more significant for object 2363.
+> Conjecture is more significant for object 2374.
+> Conjecture is more significant for object 2375.
+> Conjecture is more significant for object 2385.
+> Conjecture is more significant for object 2386.
+> Conjecture is more significant for object 2394.
+> Conjecture is more significant for object 2396.
+> Conjecture is more significant for object 2397.
+> Conjecture is more significant for object 2450.
+> Conjecture is more significant for object 2474.
+> Conjecture is more significant for object 2475.
+> Conjecture is more significant for object 2489.
+> Conjecture is more significant for object 2490.
+> Conjecture is more significant for object 2520.
+> Conjecture is more significant for object 2531.
+> Conjecture is more significant for object 2534.
+> Conjecture is more significant for object 2538.
+> Conjecture is more significant for object 2542.
+> Conjecture is more significant for object 2655.
+> Conjecture is more significant for object 2715.
+> Conjecture is more significant for object 2716.
+> Conjecture is more significant for object 2821.
+> Conjecture is more significant for object 2862.
+> Conjecture is more significant for object 2866.
+> Conjecture is more significant for object 3017.
+> Conjecture is more significant for object 3101.
+> Conjecture is more significant for object 3102.
+> Conjecture is more significant for object 3180.
+> Conjecture is more significant for object 3305.
+> Conjecture is more significant for object 3331.
+> Conjecture is more significant for object 3609.
+> Conjecture is more significant for object 3888.
+> Conjecture is more significant for object 3889.
+> Conjecture is more significant for object 3891.
+> Conjecture is more significant for object 5070.
+> Conjecture is more significant for object 6668.
+> Conjecture is more significant for object 6768.
+> Conjecture is more significant for object 6817.
+> Conjecture is more significant for object 6848.
+> Conjecture is more significant for object 6851.
+> Conjecture is more significant for object 6860.
+> Conjecture is more significant for object 6872.
+> Conjecture is more significant for object 6873.
+> Conjecture is more significant for object 7385.
+> Saving expression
+> is_2_bootstrap_good <- (is_asteroidal_triple_free) & (is_three_connected)
+> Conjecture 1 is more significant for object 18.
+> Conjecture 2 is more significant for object 282.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 597.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture is more significant for object 248.
+> Saving expression
+> is_2_bootstrap_good <- (is_polyhedral) & (is_factor_critical)
+> Conjecture 1 is more significant for object 18.
+> Conjecture 2 is more significant for object 217.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 597.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 248.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture is more significant for object 95.
+> Saving expression
+> is_2_bootstrap_good <- (is_double_clique) & (has_kite)
+> Conjecture 1 is more significant for object 40.
+> Conjecture 2 is more significant for object 217.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 597.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 248.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture 17 is more significant for object 95.
+> Status: 3 unlabeled trees, 28569 labeled trees, 2021 expressions
+> Generating trees with 2 unary nodes and 0 binary nodes.
+> Status: 4 unlabeled trees, 28676 labeled trees, 2031 expressions
+> Generating trees with 1 unary node and 1 binary node.
+> Conjecture is more significant for object 251.
+> Saving expression
+> is_2_bootstrap_good <- (~(alpha_leq_order_over_two)) & (has_k4)
+> Conjecture 1 is more significant for object 40.
+> Conjecture 2 is more significant for object 217.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 597.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 12 is more significant for object 336.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 248.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture 17 is more significant for object 95.
+> Conjecture 18 is more significant for object 251.
+> Conjecture is more significant for object 3444.
+> Conjecture is more significant for object 3903.
+> Conjecture is more significant for object 3944.
+> Conjecture is more significant for object 4373.
+> Conjecture is more significant for object 4384.
+> Conjecture is more significant for object 4385.
+> Conjecture is more significant for object 4393.
+> Conjecture is more significant for object 6368.
+> Conjecture is more significant for object 6563.
+> Conjecture is more significant for object 6702.
+> Conjecture is more significant for object 6809.
+> Conjecture is more significant for object 6921.
+> Conjecture is more significant for object 6924.
+> Conjecture is more significant for object 6929.
+> Conjecture is more significant for object 6938.
+> Conjecture is more significant for object 7097.
+> Conjecture is more significant for object 7199.
+> Saving expression
+> is_2_bootstrap_good <- (~(is_independence_irreducible)) & (is_four_connected)
+> Conjecture 1 is more significant for object 40.
+> Conjecture 2 is more significant for object 217.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 162.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 248.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 50.
+> Conjecture 17 is more significant for object 95.
+> Conjecture 18 is more significant for object 251.
+> Conjecture 19 is more significant for object 336.
+> Conjecture is more significant for object 288.
+> Saving expression
+> is_2_bootstrap_good <- (~(is_subcubic)) & (is_matthews_sumner)
+> Conjecture 1 is more significant for object 40.
+> Conjecture 2 is more significant for object 217.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 162.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 248.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 135.
+> Conjecture 17 is more significant for object 95.
+> Conjecture 18 is more significant for object 251.
+> Conjecture 19 is more significant for object 336.
+> Conjecture is more significant for object 250.
+> Conjecture is more significant for object 265.
+> Conjecture is more significant for object 401.
+> Conjecture is more significant for object 776.
+> Conjecture is more significant for object 3237.
+> Conjecture is more significant for object 3612.
+> Conjecture is more significant for object 7277.
+> Saving expression
+> is_2_bootstrap_good <- (~(is_quasi_regular)) & (is_overfull)
+> Conjecture 1 is more significant for object 40.
+> Conjecture 2 is more significant for object 217.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 250.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 162.
+> Conjecture 9 is more significant for object 416.
+> Conjecture 10 is more significant for object 3912.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 248.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 135.
+> Conjecture 17 is more significant for object 95.
+> Conjecture 18 is more significant for object 251.
+> Conjecture 19 is more significant for object 336.
+> Conjecture is more significant for object 969.
+> Saving expression
+> is_2_bootstrap_good <- (~(is_apex)) & (has_dart)
+> Conjecture 1 is more significant for object 40.
+> Conjecture 2 is more significant for object 217.
+> Conjecture 3 is more significant for object 247.
+> Conjecture 4 is more significant for object 52.
+> Conjecture 5 is more significant for object 250.
+> Conjecture 6 is more significant for object 15.
+> Conjecture 7 is more significant for object 2.
+> Conjecture 8 is more significant for object 162.
+> Conjecture 11 is more significant for object 332.
+> Conjecture 12 is more significant for object 416.
+> Conjecture 13 is more significant for object 48.
+> Conjecture 14 is more significant for object 248.
+> Conjecture 15 is more significant for object 36.
+> Conjecture 16 is more significant for object 135.
+> Conjecture 17 is more significant for object 95.
+> Conjecture 18 is more significant for object 251.
+> Conjecture 19 is more significant for object 336.
+> Status: 6 unlabeled trees, 79134 labeled trees, 4419 expressions
+> Generation process was stopped because the maximum time was reached.
+> Found 6 unlabeled trees.
+> Found 79134 labeled trees.
+> Found 4419 valid expressions.

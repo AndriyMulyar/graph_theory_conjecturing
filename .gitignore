@@ -105,3 +105,8 @@ venv.bak/
 
 #jetbrains
 .idea/
+
+#custom
+
+graph_conjecturing/precomputed_cache/gt_precomputed_database.db
+graph_conjecturing/graph_theory/graph_theory.py
